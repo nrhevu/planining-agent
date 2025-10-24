@@ -1,0 +1,6 @@
+from __future__ import annotations
+from typing import List, Protocol
+
+class MemoryStore(Protocol):
+    def add(self, text: str) -> None: ...
+    def search(self, query: str, k: int = 5) -> List[str]: ...
