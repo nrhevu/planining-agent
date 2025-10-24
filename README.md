@@ -22,13 +22,13 @@ See project files for full structure and details.
 ### 2) Install
 
 ```bash
-pip install -e .
+pip install uv
 ```
 
-> If you aren't developing locally, you can also install the deps directly:
+> Install all dependency with uv
 
 ```bash
-pip install google-generativeai pydantic typer httpx rich
+uv sync
 ```
 
 ### 3) Configure
